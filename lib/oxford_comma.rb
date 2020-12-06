@@ -3,5 +3,5 @@ def oxford_comma(array)
   
   array.each {|i| i}.join(" and ")
 
-  array[-1] = " and"
+  array[-1] << " and"
 end 
