@@ -9,3 +9,4 @@ end
 
 def oxford_comma(array)
   array.each {|i| i[-2] << " and "}.join(" , ")
+end 
