@@ -8,5 +8,5 @@ def oxford_comma(array)
 end
 
 def oxford_comma(array)
-  array.each {|i| i[-2] << " and "}.join(" , ")
+  array.each {|i| i[-2] << " and "}
 end 
